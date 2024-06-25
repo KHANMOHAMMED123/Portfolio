@@ -134,6 +134,16 @@
 		.hello-class {
 			font-size: 40px;
 		}
+
+		.about-me-img {
+			border-radius: 50%;
+			border: 8px solid lightgray;
+
+			@media (max-width: 575.98px) {
+				width: 335px;
+				height: 335px;
+			}
+		}
 	</style>
 
 
@@ -227,9 +237,9 @@
 							<div class="overlay">
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
-										<div class="about-img">
-											<img src="images/profile - Copy.png" class="img-fluid rounded b-shadow-a"
-												alt="">
+										<div class="about-img d-flex justify-content-center">
+											<img src="images/profile - Copy.png"
+												class="img-fluid about-me-img b-shadow-a" alt="">
 										</div>
 									</div>
 									<!-- Details next to profile image -->
